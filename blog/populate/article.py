@@ -19,6 +19,6 @@ def populate():
         for j in range(len(comments)):
             Comment.objects.create(article=article, content=comments[j])
     print('done')
-
+    
 if __name__ == '__main__':
     populate()
